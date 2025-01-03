@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetv4.Addadmincontroller">
+    <children>
+        <Label layoutX="70.0" layoutY="57.0" prefHeight="17.0" prefWidth="87.0" text="nom" />
+        <Label layoutX="70.0" layoutY="126.0" text="mot de pass" />
+        <TextField fx:id="nomm" layoutX="220.0" layoutY="53.0" />
+        <TextField fx:id="mdp" layoutX="220.0" layoutY="122.0" />
+        <Button layoutX="243.0" layoutY="221.0" mnemonicParsing="false" onAction="#addadminn" text="ajouter admin" />
+    </children>
+    <style>
+        -fx-background-image: url("images/detImag.jpg");
+        -fx-background-size: cover; /* Couvre toute la zone */
+        -fx-background-position: center center; /* Centre l'image */
+    </style>
+</AnchorPane>

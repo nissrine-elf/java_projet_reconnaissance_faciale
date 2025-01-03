@@ -1,0 +1,6 @@
+.anchor-pane {
+    -fx-background-image: url("images/detImag.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
